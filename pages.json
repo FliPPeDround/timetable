@@ -1,0 +1,49 @@
+{
+	"pages": [
+		// {
+		// 	"path": "pages/index/index"
+		// },{
+			{
+			"path": "pages/user/index"
+		},{
+			"path":"pages/log_on/index",
+			"style":{
+			"navigationBarTitleText":"登录教务系统"
+			}
+		},{
+			"path": "pages/timeTable/index",
+			"style":{
+				"navigationBarTitleText":"课表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "涉外XY",
+		"navigationBarBackgroundColor": "#66D6E2",
+		"enablePullDownRefresh": true,
+		"backgroundColor": "#66D6E2"
+		// "backgroundColor": "#f0e0e9"
+	},
+	"tabBar": {
+	    "color": "#999",
+	    "selectedColor": "#66D6E2",
+	    "backgroundColor": "white",
+	    "position": "bottom",
+	    "borderStyle": "black",
+	    "list": [
+	      {
+	        "pagePath": "pages/timeTable/index",
+	        "text": "课表",
+	        "iconPath": "icons/timetable_.png",
+	        "selectedIconPath": "./icons/timetable.png"
+	      },
+	      {
+	        "pagePath": "pages/user/index",
+	        "text": "我的",
+	        "iconPath": "./icons/user_.png",
+	        "selectedIconPath": "./icons/user.png"
+	      }
+	    ]
+	  }
+}
